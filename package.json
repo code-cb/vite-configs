@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,tsx}'"
+  },
+  "devDependencies": {
+    "@codecb/prettierrc": "0.0.1",
+    "@codecb/tsconfigs": "0.0.10",
+    "@types/node": "^18.11",
+    "prettier": "^2.8",
+    "typescript": "^4.9",
+    "vite": "^4.0",
+    "vite-tsconfig-paths": "^4.0"
+  },
+  "prettier": "@codecb/prettierrc"
+}
